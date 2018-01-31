@@ -1,4 +1,8 @@
-# Angularfs
+# Angularfs "Simple Angular/Firestore App"
+
+Not much to it just to see how to make use of Angular and Google's Cloud Firestore together
+Tutorial through Traversy Media
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
