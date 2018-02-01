@@ -34,6 +34,11 @@ export class ItemService {
     this.itemDoc.delete();
   }
 
+  updateItem(item: Item){
+    this.itemDoc = this.itemsCollection.doc(`${item.id}`);
+    this.itemDoc.update(item);
+  }
+
 }
 
 
